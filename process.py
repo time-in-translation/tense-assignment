@@ -3,6 +3,8 @@
 import argparse
 import codecs
 
+from sklearn import tree
+
 from languages.es import get_tense_es
 from languages.nl import get_tense_nl
 from utils import unicode_csv_reader
@@ -80,5 +82,13 @@ if __name__ == "__main__":
 
     annotations = import_csv(args.filename)
     results = assign_tenses(annotations, language=args.language)
-    show_differences(annotations, results)
+
+    from sklearn.datasets import load_iris
+    iris = load_iris()
+    clf = tree.DecisionTreeClassifier()
+    clf = clf.fit(iris.data, iris.target)
+    print annotations
+    print iris.data
+
+    # show_differences(annotations, results)
 
