@@ -3,7 +3,9 @@
 import argparse
 import codecs
 
-from sklearn import tree
+import numpy as np
+from sklearn import tree, preprocessing
+from sklearn.model_selection import cross_val_score
 
 from languages.es import get_tense_es
 from languages.nl import get_tense_nl
@@ -17,6 +19,11 @@ class Annotation(object):
         self.words = filter(None, words)
         self.pos = filter(None, pos)
         self.lemmata = filter(None, lemmata)
+        self.unf_pos = pos
+        self.unf_lemmata = lemmata
+
+    def to_array(self):
+        return np.array(self.unf_pos + self.unf_lemmata)
 
 
 def import_csv(filename):
@@ -35,7 +42,7 @@ def import_csv(filename):
                         word_columns.append(j)
                     if r.startswith('pos'):
                         pos_columns.append(j)
-                    if r.startswith('lemmata'):
+                    if r.startswith('lem'):
                         lemmata_columns.append(j)
             else:  # other rows
                 id = int(row[0])
@@ -83,12 +90,31 @@ if __name__ == "__main__":
     annotations = import_csv(args.filename)
     results = assign_tenses(annotations, language=args.language)
 
-    from sklearn.datasets import load_iris
-    iris = load_iris()
+    data = np.array([a.to_array() for a in annotations])
+    target = np.array([a.target for a in annotations])
+
+    for n, column in enumerate(data.T):
+        le = preprocessing.LabelEncoder()
+        le.fit(column)
+        data[:,n] = le.transform(column)
+
+    ohc = preprocessing.OneHotEncoder()
+    ohc.fit(data)
+    new_data = ohc.transform(data).toarray()
+
     clf = tree.DecisionTreeClassifier()
-    clf = clf.fit(iris.data, iris.target)
-    print annotations
-    print iris.data
+    clf = clf.fit(new_data, target)
+
+    import graphviz
+    dot_data = tree.export_graphviz(clf, out_file=None)
+    graph = graphviz.Source(dot_data)
+    graph.render('test')
+
+    print clf.score(new_data, target)
+
+    print cross_val_score(clf, new_data, target, cv=10)
+
+    # recovered_X = np.array([ohc.active_features_[col] for col in new_data.sorted_indices().indices]).reshape(n_samples, n_features) - ohc.feature_indices_[:-1]
 
     # show_differences(annotations, results)
 
