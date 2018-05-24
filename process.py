@@ -2,6 +2,7 @@
 
 import argparse
 import codecs
+from collections import Counter
 
 import numpy as np
 from sklearn import tree, preprocessing
@@ -90,31 +91,43 @@ if __name__ == "__main__":
     annotations = import_csv(args.filename)
     results = assign_tenses(annotations, language=args.language)
 
-    data = np.array([a.to_array() for a in annotations])
-    target = np.array([a.target for a in annotations])
+    X = np.array([a.to_array() for a in annotations])
+    y = np.array([a.target for a in annotations])
+    print Counter(y)
 
-    for n, column in enumerate(data.T):
+    X_labeling = dict()
+    i = j = 0
+    for n, column in enumerate(X.T):
         le = preprocessing.LabelEncoder()
         le.fit(column)
-        data[:,n] = le.transform(column)
+        X[:, n] = le.transform(column)
 
-    ohc = preprocessing.OneHotEncoder()
-    ohc.fit(data)
-    new_data = ohc.transform(data).toarray()
+        for c in le.classes_:
+            X_labeling[j] = str(i) + ': ' + c
+            j += 1
+        i += 1
 
-    clf = tree.DecisionTreeClassifier()
-    clf = clf.fit(new_data, target)
+    enc = preprocessing.OneHotEncoder()
+    enc.fit(X)
+    X_OHC = enc.transform(X)
+
+    clf = tree.DecisionTreeClassifier(max_depth=3)
+    clf = clf.fit(X_OHC, y)
 
     import graphviz
     dot_data = tree.export_graphviz(clf, out_file=None)
     graph = graphviz.Source(dot_data)
     graph.render('test')
 
-    print clf.score(new_data, target)
+    print clf.score(X_OHC, y)
 
-    print cross_val_score(clf, new_data, target, cv=10)
+    print cross_val_score(clf, X_OHC, y, cv=10)
 
-    # recovered_X = np.array([ohc.active_features_[col] for col in new_data.sorted_indices().indices]).reshape(n_samples, n_features) - ohc.feature_indices_[:-1]
+    for f in clf.tree_.feature:
+        if f in X_labeling:
+            print f, X_labeling[f]
+
+    # print results
 
     # show_differences(annotations, results)
 
