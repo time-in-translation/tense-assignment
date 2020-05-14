@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-import codecs
+import csv
 from collections import Counter
 
 import numpy as np
@@ -10,16 +10,15 @@ from sklearn.model_selection import cross_val_score
 
 from languages.es import get_tense_es
 from languages.nl import get_tense_nl
-from utils import unicode_csv_reader
 
 
 class Annotation(object):
     def __init__(self, id, target, words, pos, lemmata):
         self.id = id
         self.target = target
-        self.words = filter(None, words)
-        self.pos = filter(None, pos)
-        self.lemmata = filter(None, lemmata)
+        self.words = list(filter(None, words))
+        self.pos = list(filter(None, pos))
+        self.lemmata = list(filter(None, lemmata))
         self.unf_pos = pos
         self.unf_lemmata = lemmata
 
@@ -30,12 +29,12 @@ class Annotation(object):
 def import_csv(filename):
     result = []
 
-    with codecs.open(filename, 'rb', 'utf-8') as f:
+    with open(filename, 'r') as f:
         word_columns = []
         pos_columns = []
         lemmata_columns = []
 
-        reader = unicode_csv_reader(f, delimiter=';')
+        reader = csv.reader(f, delimiter=';')
         for i, row in enumerate(reader):
             if i == 0:  # header row
                 for j, r in enumerate(row):
@@ -75,11 +74,11 @@ def show_differences(annotations, results):
     for n, annotation in enumerate(annotations):
         total += 1
         if annotation.target != results[n]:
-            print 'target:', annotation.target, annotation.pos, ', but found:', results[n]
+            print('target:', annotation.target, annotation.pos, ', but found:', results[n])
         else:
             correct += 1
 
-    print correct, total
+    print(correct, total)
 
 
 if __name__ == "__main__":
@@ -90,10 +89,11 @@ if __name__ == "__main__":
 
     annotations = import_csv(args.filename)
     results = assign_tenses(annotations, language=args.language)
+    show_differences(annotations, results)
 
     X = np.array([a.to_array() for a in annotations])
     y = np.array([a.target for a in annotations])
-    print Counter(y)
+    print(Counter(y))
 
     X_labeling = dict()
     i = j = 0
@@ -119,15 +119,13 @@ if __name__ == "__main__":
     graph = graphviz.Source(dot_data)
     graph.render('test')
 
-    print clf.score(X_OHC, y)
+    print(clf.score(X_OHC, y))
 
-    print cross_val_score(clf, X_OHC, y, cv=10)
+    print(cross_val_score(clf, X_OHC, y, cv=10))
 
     for f in clf.tree_.feature:
         if f in X_labeling:
-            print f, X_labeling[f]
+            print(f, X_labeling[f])
 
     # print results
-
-    # show_differences(annotations, results)
 
