@@ -33,7 +33,7 @@ python-docx==0.8.10       # via pattern
 pytz==2020.1              # via tempora
 regex==2020.5.13          # via nltk
 requests==2.23.0          # via pattern
-scikit-learn==0.23.0      # via -r requirements.in
+scikit-learn==0.23.2      # via -r requirements.in
 scipy==1.4.1              # via pattern, scikit-learn
 six==1.14.0               # via cheroot, jaraco.collections, jaraco.text
 sortedcontainers==2.1.0   # via pdfminer.six
