@@ -11,12 +11,16 @@ def get_tense_nl(words, pos, lemmata):
     tense = ''
 
     if len(pos) == 1:
-        if pos[0] in ['verbpressg', 'verbprespl']:
+        if pos[0] in ['verbpressg', 'verbprespl', 'verbinf']:
             tense = 'ott'
-        if pos[0] in ['verbpastsg', 'verbpastpl', 'verbpapa']:
+        if pos[0] in ['verbpastsg', 'verbpastpl']:
             tense = 'ovt'
+        if pos[0] in ['verbpapa']:
+            tense = 'vtt'
     if len(pos) == 2:
         if set(pos) == {'verbpressg', 'verbinf'} or set(pos) == {'verbprespl', 'verbinf'}:
+            tense = 'ott'
+        if set(pos) == {'verbpressg', 'adj'} or set(pos) == {'verbprespl', 'adj'}:
             tense = 'ott'
 
         if set(pos) == {'verbpressg', 'verbpapa'} or set(pos) == {'verbprespl', 'verbpapa'}:
@@ -30,6 +34,8 @@ def get_tense_nl(words, pos, lemmata):
             tense = 'ovtt'
     if len(pos) == 3:
         if set(pos) == {'pronrefl', 'verbpressg', 'verbpapa'} or set(pos) == {'pronrefl', 'verbprespl', 'verbpapa'}:
+            tense = 'vtt'
+        if set(pos) == {'verbpressg', 'verbinf', 'verbinf'}:
             tense = 'vtt'
         if set(pos) == {'pronrefl', 'verbpastsg', 'verbpapa'} or set(pos) == {'pronrefl', 'verbpastpl', 'verbpapa'}:
             tense = 'vvt'

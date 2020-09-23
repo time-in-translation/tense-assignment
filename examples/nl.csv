@@ -1,11 +1,11 @@
-﻿id;tense;source/target;is correct target?;is correct translation?;w1;w2;w3;w4;pos1;pos2;pos3;pos4;lemma1;lemma2;lemma3;lemma4;comments;full fragment;source words;source fragment
+id;tense;source/target;is correct target?;is correct translation?;w1;w2;w3;w4;pos1;pos2;pos3;pos4;lemma1;lemma2;lemma3;lemma4;comments;full fragment;source words;source fragment
 12882;vtt;target;yes;yes;hebben;gehad;;;verbprespl;verbpapa;;;hebben;hebben;;;;Ze hebben zes uur de tijd gehad .;'ve had;They 've had six hours .
-12884;other;target;yes;yes;heeft;laten;zien;;verbpressg;verbinf;verbinf;;hebben;laten;zien;;;Onze Fuhrer heeft laten zien dat die Engelse bedplasser , die sigaren paffende klootzak van ' n Churchill - - zijn stinksigaren in zijn reet kan steken .;has been;Our great Fuhrer has been showing their English bed-wetter the cigar-chomping asshole Churchill ... ... where exactly to go and stick his stinking cigars .
+12884;vtt;target;yes;yes;heeft;laten;zien;;verbpressg;verbinf;verbinf;;hebben;laten;zien;;;Onze Fuhrer heeft laten zien dat die Engelse bedplasser , die sigaren paffende klootzak van ' n Churchill - - zijn stinksigaren in zijn reet kan steken .;has been;Our great Fuhrer has been showing their English bed-wetter the cigar-chomping asshole Churchill ... ... where exactly to go and stick his stinking cigars .
 12886;vtt;target;yes;yes;heb;gevaren;;;verbpressg;verbpapa;;;hebben;varen;;;;Ik heb op ' n driemaster gevaren .;'ve sailed;I 've sailed on a schooner .
 12887;ott;target;yes;yes;hebben;;;;verbprespl;;;;hebben;;;;;We hebben de prachtigste torpedo ' s .;'ve got;We 've got plenty of fancy torpedoes .
 12888;vtt;target;yes;yes;Hebben;gezien;;;verbprespl;verbpapa;;;hebben;zien;;;;Hebben ze toch onze periscoop gezien .;'ve spotted;They must 've spotted our periscope .
 12890;ott;target;yes;yes;hebben;;;;verbprespl;;;;hebben;;;;;We hebben wel wat anders te doen .;'ve got;We 've got work to do !
-12893;other;target;yes;yes;gehoord;;;;verbpapa;;;;horen;;;;;Niets gehoord van je vrouw ?;Have talked;Have you talked to your wife ?
+12893;vtt;target;yes;yes;gehoord;;;;verbpapa;;;;horen;;;;;Niets gehoord van je vrouw ?;Have talked;Have you talked to your wife ?
 12894;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;- Dan zijn we ze kwijt .;have shaken;- I guess we have shaken them off .
 12897;vtt;target;yes;yes;gescheurd;zijn;;;verbpapa;verbprespl;;;scheuren;zijn;;;;Ga kijken hoeveel er gescheurd zijn .;have cracked;See how many cells have cracked .
 12900;vtt;target;yes;yes;heeft;gehad;;;verbpressg;verbpapa;;;hebben;hebben;;;;- De halve vloot heeft ' r gehad .;have tried;- Half the fleet have tried her .
@@ -24,14 +24,14 @@
 12920;vtt;target;yes;yes;hebben;gedaan;;;verbprespl;verbpapa;;;hebben;doen;;;;Zoals u ziet , hebben we ons best gedaan .;'ve done;We 've done what we can for you .
 12921;vtt;target;yes;yes;heb;genomen;;;verbpressg;verbpapa;;;hebben;nemen;;;;- Ik heb ' t besluit al genomen .;'ve made;- I 've already made the decision .
 12922;vtt;target;yes;yes;heb;gehoord;;;verbpressg;verbpapa;;;hebben;horen;;;;De mooiste muziek die ik ooit heb gehoord .;'ve heard;I 've never heard such sweet music in all my life .
-12923;other;target;yes;yes;zijn;;;;verbinf;;;;zijn;;;;;De pakkingen zijn eraan .;have seized;The bearings have seized .
+12923;ott;target;yes;yes;zijn;;;;verbinf;;;;zijn;;;;;De pakkingen zijn eraan .;have seized;The bearings have seized .
 12924;ott;target;yes;yes;moet;;;;verbpressg;;;;moeten;;;;;Ik moet een vervanger vinden voor de meester .;'ve got;I 've got to find a replacement for the chief .
-12925;other;target;yes;yes;heeft;ontdekt;;;verbpressg;verbpressg;;;hebben;ontdekken;;;;De U-32 heeft ' n konvooi ontdekt .;has spotted;U-32 has spotted a British convoy .
+12925;vtt;target;yes;yes;heeft;ontdekt;;;verbpressg;verbpressg;;;hebben;ontdekken;;;;De U-32 heeft ' n konvooi ontdekt .;has spotted;U-32 has spotted a British convoy .
 12928;vtt;target;yes;yes;zijn;gedicht;;;verbprespl;verbpapa;;;zijn;dichten;;;;Alle lekken zijn gedicht .;have been stopped;All the leaks have been stopped .
 12929;vtt;target;yes;yes;hebben;gedaan;;;verbprespl;verbpapa;;;hebben;doen;;;;- We hebben ons best gedaan .;'ve done;- We 've done what we can , sir .
 12930;vtt;target;yes;yes;zijn;gebroken;;;verbprespl;verbpapa;;;zijn;breken;;;;De schotten zijn gebroken .;'ve collapsed;They 've collapsed .
 12931;ott;target;yes;yes;hebben;;;;verbprespl;;;;hebben;;;;;En dan alles erin wat we aan perslucht hebben .;have left;We 'll use all the high-pressure air we have left .
-12933;other;target;yes;yes;hadden;verwacht;;;verbpastpl;verbpressg;;;hebben;verwachten;;;;Seewald , we hadden je al verwacht .;'ve been;Seewald , we 've been expecting you .
+12933;vvt;target;yes;yes;hadden;verwacht;;;verbpastpl;verbpressg;;;hebben;verwachten;;;;Seewald , we hadden je al verwacht .;'ve been;Seewald , we 've been expecting you .
 12936;ott;target;yes;yes;moet;;;;verbpressg;;;;moeten;;;;;Het water moet eruit .;'ve got;We 've got to get the water out .
 12937;vtt;target;yes;yes;is;afgewezen;;;verbpressg;verbpapa;;;zijn;afwijzen;;;;Ons verzoek is afgewezen , meester .;has been denied;Our request has been denied , Chief .
 13009;vtt;target;yes;yes;hebben;gestolen;;;verbprespl;verbpapa;;;hebben;stelen;;;;Wat hebben ze uit de goederenwagons gestolen ?;haben gestohlen;Was haben sie aus den Güterwagen gestohlen ?
@@ -39,9 +39,9 @@
 13011;ovt;target;yes;yes;kwam;;;;verbpastsg;;;;komen;;;;;Gisteren kwam er een elf bij me .;hat besucht;Letzte Nacht hat mich eine Fee besucht .
 13012;vtt;target;yes;yes;is;afgewezen;;;verbpressg;verbpapa;;;zijn;afwijzen;;;;Ons verzoek is afgewezen , meester .;ist abgelehnt;Unser Antrag ist abgelehnt worden .
 13013;vtt;target;yes;yes;heeft;gefaald;;;verbpressg;verbpapa;;;hebben;falen;;;;U heeft gefaald .;bist gescheitert;Du bist gescheitert .
-13014;other;target;yes;yes;is;gevallen;;;verbpressg;nounpl;;;zijn;geval;;;;"Eet of drink niks tijdens je verblijf .
+13014;vtt;target;yes;yes;is;gevallen;;;verbpressg;nounpl;;;zijn;geval;;;;"Eet of drink niks tijdens je verblijf .
 en kom terug voor de laatste zandkorrel is gevallen .";gefallen ist;""" Iß oder trink nichts , während deines Aufenthaltes , und sei zurück , bevor das letzte Sandkorn gefallen ist . """
-13015;other;target;yes;yes;hebt;vermoord;;;verbpressg;verbpressg;;;hebben;vermoorden;;;;Je hebt hem vermoord .;haben getötet;Sie haben ihn getötet , Sie haben ihn getötet !
+13015;vtt;target;yes;yes;hebt;vermoord;;;verbpressg;verbpressg;;;hebben;vermoorden;;;;Je hebt hem vermoord .;haben getötet;Sie haben ihn getötet , Sie haben ihn getötet !
 13016;vtt;target;yes;yes;zijn;vertrokken;;;verbprespl;verbpapa;;;zijn;vertrekken;;;;Ze waren hier twintig minuten geleden , en zijn dan snel weer vertrokken .;sind aufgerochen;Sie sind in Eile aufgerochen .
 13017;ovt;target;yes;yes;luisterde;;;;verbpastsg;;;;luisteren;;;;;Waarom luisterde je niet ?;haben gehört;Warum haben sie nicht auf mich gehört ?
 13018;vtt;target;yes;yes;heeft;gehad;;;verbpressg;verbpapa;;;hebben;hebben;;;;- De halve vloot heeft ' r gehad .;hat gebumst;- Die halbe Flotte hat sie gebumst .
@@ -60,7 +60,7 @@ en kom terug voor de laatste zandkorrel is gevallen .";gefallen ist;""" Iß oder
 13035;ott;target;yes;yes;heb;;;;verbpressg;;;;hebben;;;;;Om daar voor te zorgen , heb ik wat gereedschap bij me .;habe mitgebracht;Aber um sicherzugehen , habe ich einige Werkzeuge mitgebracht .
 13036;vtt;target;yes;yes;heeft;uitgevaardigd;;;verbpressg;verbpapa;;;hebben;uitvaardigen;;;;De Paus heeft de bul uitgevaardigd .;hat erlassen;Seine Heiligkeit hat das Edikt erlassen .
 13037;vtt;target;yes;yes;gepleegd;heb;;;verbpapa;verbpressg;;;plegen;hebben;;;;Omdat ik geen misdaden gepleegd heb .;begangen habe;Weil ich , Eure Majestät , keine begangen habe .
-13038;other;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;Hat verlassen;Hat er Euch verlassen ?
+13038;vtt;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;Hat verlassen;Hat er Euch verlassen ?
 13040;vtt;target;yes;yes;heeft;verloren;;;verbpressg;verbpapa;;;hebben;verliezen;;;;Onze voetbalclub heeft verloren .;hat verloren;Unsere Mannschaft hat verloren .
 13041;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Mijn echtgenoot is weg , ons kind is vergiftigd .;ist gegangen;Mein Gatte ist von mir gegangen , mein Kind haben sie vergiftet .
 13043;vtt;target;yes;yes;hebben;gemaakt;;;verbprespl;verbpapa;;;hebben;maken;;;;We hebben een fout gemaakt .;haben gemacht;- Wir haben einen Fehler gemacht !
@@ -70,7 +70,7 @@ en kom terug voor de laatste zandkorrel is gevallen .";gefallen ist;""" Iß oder
 13047;vtt;target;yes;yes;heeft;gebaard;;;verbpressg;verbpapa;;;hebben;baren|gebaren;;;;De maan heeft u gebaard .;geboren hat;Es war der Mond , der dich geboren hat .
 13048;vtt;target;yes;yes;beledigd;heb;;;verbpapa;verbpressg;;;beledigen;hebben;;;;Het spijt mij heel erg als ik u beledigd heb , Mevrouw .;beleidigt habe;Ich bedauere zutiefst , Madam , wenn ich Euch so beleidigt habe .
 13049;vvt;target;yes;yes;hadden;gestuurd;;;verbpastpl;verbpapa;;;hebben;sturen;;;;Wie weet wat voor idioot ze hadden gestuurd .;geschickt hätten;Wer weiß , was die für einen Idioten geschickt hätten .
-13050;other;target;yes;yes;is;gewond;;;verbpressg;adj;;;zijn;gewond;;;;Hij is gewond .;ist verwundet;Er ist verwundet .
+13050;ott;target;yes;yes;is;gewond;;;verbpressg;adj;;;zijn;gewond;;;;Hij is gewond .;ist verwundet;Er ist verwundet .
 13051;vtt;target;yes;yes;hersteld;ben;;;verbpapa;verbpressg;;;herstellen;zijn;;;;Je mag terug naar Hatfield maar je hebt huisarrest tot ik hersteld ben .;geheilt bin;Du darfst zurück in dein Haus nach Hatfield , doch stehst du dort unter Arrest , bis ich wieder geheilt bin .
 13052;ovt;target;yes;yes;stierf;;;;verbpastsg;;;;sterven;;;;;Zeg hem hoe laat z ' n vader stierf .;gestorben ist;Sag ihm zu welcher Uhrzeit sein Vater gestorben ist .
 13053;other;target;yes;yes;zou;luisteren;;;verbpastsg;verbinf;;;zullen;luisteren;;;;Je zou naar me luisteren .;hast versprochen;Du hast versprochen , auf mich zu hören !
@@ -93,7 +93,7 @@ en kom terug voor de laatste zandkorrel is gevallen .";gefallen ist;""" Iß oder
 13078;vtt;target;yes;yes;gered;heeft;;;verbpapa;verbpressg;;;redden;hebben;;;;Toch weet ik zeker dat dit uw bastaardkoningin niet gered heeft .;hat gerettet;- Ich bin sicher , diese Tat der Hölle hat Eure Bastard-Königin nicht gerettet .
 13079;vtt;target;yes;yes;is;gestorven;;;verbpressg;verbpapa;;;zijn;sterven;;;;"Mijn vader was een kleermaker .
 Hij is in de oorlog gestorven .";ist gefallen;Mein Vater war ein Schneider , er ist im Krieg gefallen .
-13080;other;target;yes;yes;hebben;laten;dromen;;verbprespl;verbinf;verbinf;;hebben;laten;dromen;;;Ze hebben ons van deze dag laten dromen .;haben vorgemacht;Die haben uns was vorgemacht .
+13080;vtt;target;yes;yes;hebben;laten;dromen;;verbprespl;verbinf;verbinf;;hebben;laten;dromen;;;Ze hebben ons van deze dag laten dromen .;haben vorgemacht;Die haben uns was vorgemacht .
 13081;vtt;target;yes;yes;is;gearresteerd;;;verbpressg;verbpapa;;;zijn;arresteren;;;;Uwe Excellentie is gearresteerd .;ist verhaftet;Euer Gnaden ist verhaftet .
 13082;vtt;target;yes;yes;gescheiden;bent;;;verbpapa;verbpressg;;;scheiden;zijn;;;;Het is niet aan u om mij de les te lezen aangezien u zelf al twee keer gescheiden bent .;seid geschieden;Denn zweimal seid lhr schon geschieden , und nun zum dritten Mal verheiratet !
 13083;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;De burgeroorlog is voorbij .;ist beendet;Der Bürgerkrieg ist beendet .
@@ -101,12 +101,12 @@ Hij is in de oorlog gestorven .";ist gefallen;Mein Vater war ein Schneider , er 
 13086;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Het doet me deugd dat Uwe Majesteit ongedeerd is .;verletzt ist;Ich bin erfreut , daß Eure Majestät nicht verletzt ist .
 13087;vtt;target;yes;yes;heeft;gesproken;;;verbpressg;verbpapa;;;hebben;spreken;;;;Dat u met Maria van Schotland heeft gesproken .;aufgenommen habt;... daß lhr Kontakt nach Schottland zu Maria aufgenommen habt , um Euer Anliegen voranzutreiben .
 13089;vtt;target;yes;yes;Heb;nagedacht;;;verbpressg;verbpapa;;;hebben;nadenken;;;;Heb je daar al over nagedacht ?;Hast nachgedacht;- Hast du darüber nachgedacht ?
-13091;other;target;yes;yes;hebt;vermoord;;;verbpressg;verbpressg;;;hebben;vermoorden;;;;Je hebt hem vermoord .;haben getötet;Sie haben ihn getötet , Sie haben ihn getötet !
+13091;vtt;target;yes;yes;hebt;vermoord;;;verbpressg;verbpressg;;;hebben;vermoorden;;;;Je hebt hem vermoord .;haben getötet;Sie haben ihn getötet , Sie haben ihn getötet !
 13093;vtt;target;yes;yes;Heb;gezien;;;verbpressg;verbpapa;;;hebben;zien;;;;Heb je dat gezien ?;Hast bemerkt;Hast Du das bemerkt ?
 13094;vtt;target;yes;yes;heeft;gekozen;;;verbpressg;verbpapa;;;hebben;kiezen;;;;En u heeft goed gekozen , Majesteit .;hast gewählt;Und du hast gut gewählt , Eure Hoheit .
 13095;ovt;target;yes;yes;ontmoetten;;;;verbpastpl;;;;ontmoeten;;;;;Wel toevallig , dat jullie elkaar na zo ' n lange tijd weer ontmoetten .;wiedergefunden haben;Ich meine , daß sie sich wiedergefunden haben .
 13096;ott;target;yes;yes;zien;;;;verbprespl;;;;zien;;;;;Ze zien ons niet .;haben entdeckt;Die haben uns nicht entdeckt .
-13097;other;target;yes;yes;gebruik;;;;nounsg;;;;gebruik;;;;;Eerst kan ik je nog niet vertrouwen , maar zodra ik dit gebruik , zal je beginnen praten .;verwendet habe;Zuerst , werde ich dir nicht trauen können , aber nachdem ich das verwendet habe , wirst du einige Dinge eingestehen .
+13097;ott;target;yes;yes;gebruik;;;;nounsg;;;;gebruik;;;;;Eerst kan ik je nog niet vertrouwen , maar zodra ik dit gebruik , zal je beginnen praten .;verwendet habe;Zuerst , werde ich dir nicht trauen können , aber nachdem ich das verwendet habe , wirst du einige Dinge eingestehen .
 13098;vtt;target;yes;yes;zijn;losgeraakt;;;verbprespl;verbpapa;;;zijn;losraken;;;;De compressoren zijn losgeraakt en de geleidebussen lekken .;haben losgerissen;Die Kompressoren haben sich losgerissen .
 13099;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Ik weet niet hoe , maar het is zo .;ist passiert;Ich weiß nicht wie , aber es ist passiert .
 13100;vtt;target;yes;yes;heeft;gedaan;;;verbpressg;verbpapa;;;hebben;doen;;;;Wat heeft u met ' m gedaan ?;haben angetan;Mein Gott , was haben sie ihm angetan ?
@@ -122,12 +122,12 @@ Niemand nodig hebben en alles opofferen voor ' t vaderland .";haben erzählt;Die
 13114;ott;target;yes;yes;doet;;;;verbpressg;;;;doen;;;;;Het doet me deugd dat Uwe Majesteit ongedeerd is .;bin erfreut;Ich bin erfreut , daß Eure Majestät nicht verletzt ist .
 13116;ott;target;yes;yes;wacht;;;;verbpressg;;;;wachten;;;;;Hij wacht al zo lang .;hat gewartet;Er hat so lange auf dich gewartet .
 13118;vtt;target;yes;yes;heeft;omsloten;;;verbpressg;verbpapa;;;hebben;omsluiten;;;;Een golf des doods heeft mij omsloten .;bin umfangen;Vom Tod bin ich umfangen .
-13119;other;target;yes;yes;hadden;verwacht;;;verbpastpl;verbpressg;;;hebben;verwachten;;;;Seewald , we hadden je al verwacht .;haben erwartet;Seewald , wir haben Sie erwartet .
-13120;other;target;yes;yes;hebben;laten;liggen;;verbprespl;verbinf;verbinf;;hebben;laten;liggen;;;- Ze hebben dit lot laten liggen .;haben vergessen;Verdammt , sie haben dieses Lotterielos vergessen .
+13119;vvt;target;yes;yes;hadden;verwacht;;;verbpastpl;verbpressg;;;hebben;verwachten;;;;Seewald , we hadden je al verwacht .;haben erwartet;Seewald , wir haben Sie erwartet .
+13120;vtt;target;yes;yes;hebben;laten;liggen;;verbprespl;verbinf;verbinf;;hebben;laten;liggen;;;- Ze hebben dit lot laten liggen .;haben vergessen;Verdammt , sie haben dieses Lotterielos vergessen .
 13121;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;"Jullie zijn kansloos .
 Geen wapens , geen schuilplaats ...";seid aufgeschmissen;Ihr seid aufgeschmissen , keine Waffen , kein sicheres Obdach ...
 13122;vtt;target;yes;yes;hebt;gemaakt;;;verbpressg;verbpapa;;;hebben;maken;;;;Je hebt mama erg ziek gemaakt .;hast gemacht;Du hast Mama sehr krank gemacht .
-13123;other;target;yes;yes;gegeten;;;;verbpapa;;;;eten;;;;;Nooit gegeten .;Habe gegessen;Habe ich noch nie gegessen .
+13123;vtt;target;yes;yes;gegeten;;;;verbpapa;;;;eten;;;;;Nooit gegeten .;Habe gegessen;Habe ich noch nie gegessen .
 13124;vtt;target;yes;yes;hebt;gedaan;;;verbpressg;verbpapa;;;hebben;doen;;;;Je hebt me pijn gedaan .;getan hast;Was du getan hast , hat mich verletzt .
 13125;vtt;target;yes;yes;Heb;gezien;;;verbpressg;verbpapa;;;hebben;zien;;;;- Heb je m ' n moeder gezien ?;Hast gesehen;Hast Du meine Mutter gesehen ?
 13126;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;Na zes uur sluipvaart onder water lijkt het zeker dat de jagers ons kwijt zijn .;verloren haben;Sind sicher , daß Zerstörer uns verloren haben .
@@ -145,13 +145,13 @@ Geen wapens , geen schuilplaats ...";seid aufgeschmissen;Ihr seid aufgeschmissen
 13143;ott;target;yes;yes;ben;;;;verbpressg;;;;zijn;;;;;Ik ben uw vorstin ...;hat eingesetzt;Man hat mich eingesetzt ...
 13144;vtt;target;yes;yes;zijn;verloofd;;;verbprespl;verbpapa;;;zijn;verloven;;;;Niemand weet ' t , maar we zijn verloofd .;sind verlobt;aber wir sind verlobt .
 13145;vtt;target;yes;yes;is;getrouwd;;;verbpressg;verbpapa;;;zijn;trouwen;;;;Hij is al getrouwd .;ist verheiratet;Er ist schon verheiratet .
-13146;other;target;yes;yes;is;gewond;;;verbpressg;adj;;;zijn;gewond;;;;Ze verliezen terrein , en één van hen is gewond .;ist verwundet;Sie verlieren an Boden , und einer von ihnen ist verwundet .
+13146;ott;target;yes;yes;is;gewond;;;verbpressg;adj;;;zijn;gewond;;;;Ze verliezen terrein , en één van hen is gewond .;ist verwundet;Sie verlieren an Boden , und einer von ihnen ist verwundet .
 13148;ott;target;yes;yes;hebben;;;;verbprespl;;;;hebben;;;;;We hebben ' m .;ist getroffen;Er ist getroffen !
 13151;vtt;target;yes;yes;is;ingewikkeld;;;verbpressg;verbpapa;;;zijn;inwikkelen;;;;Een kind krijgen is ingewikkeld .;ist kompliziert;Eine Baby zu bekommen , ist kompliziert .
 13152;vtt;target;yes;yes;heeft;geloofd;;;verbpressg;verbpapa;;;hebben;geloven|loven;;;;Ze heeft in u geloofd sinds het begin .;hat geglaubt;Sie hat an dich geglaubt von Anfang an .
 13153;ott;target;yes;yes;loof;;;;verbpressg;;;;loven;;;;;Ik loof de Heer opdat ik gered word van mijn vijanden .;Gelobt sei;Gelobt sei Gott , denn er rettet mich vor meinen Feinden .
-13155;other;target;yes;yes;heeft;bemind;;;verbpressg;adj;;;hebben;bemind;;;;De koning heeft haar al maanden niet bemind .;hat geteilt;Der König hat das Bett schon seit Monaten nicht mehr mit ihr geteilt .
-13156;other;target;yes;yes;zijn;;;;verbinf;;;;zijn;;;;;De pakkingen zijn eraan .;sind gerissen;Die Dichtungen sind gerissen .
+13155;vtt;target;yes;yes;heeft;bemind;;;verbpressg;adj;;;hebben;bemind;;;;De koning heeft haar al maanden niet bemind .;hat geteilt;Der König hat das Bett schon seit Monaten nicht mehr mit ihr geteilt .
+13156;ott;target;yes;yes;zijn;;;;verbinf;;;;zijn;;;;;De pakkingen zijn eraan .;sind gerissen;Die Dichtungen sind gerissen .
 13157;vtt;target;yes;yes;hebben;gedaan;;;verbprespl;verbpapa;;;hebben;doen;;;;- We hebben ons best gedaan .;haben getan;- Wir haben getan , was möglich ist .
 13159;vtt;target;yes;yes;heeft;gezorgd;;;verbpressg;verbpapa;;;hebben;zorgen;;;;Voor hun zielen heeft God al gezorgd .;hat gerettet;Gott hat ihre Seelen schon gerettet .
 13160;other;target;yes;yes;zal;bedreigen;;;verbpressg;verbinf;;;zullen;bedreigen;;;;Maria van Guise zal Hare Majesteit niet langer bedreigen op één voorwaarde .;hat versprochen;Maria von Guise , Madam , hat versprochen , Euch weiter nicht mehr zu bedrohen , doch stellt sie eine Bedingung .
@@ -161,13 +161,13 @@ Geen wapens , geen schuilplaats ...";seid aufgeschmissen;Ihr seid aufgeschmissen
 13164;vtt;target;yes;yes;hebt;gedaan;;;verbpressg;verbpapa;;;hebben;doen;;;;Je hebt me pijn gedaan .;hat verletzt;Was du getan hast , hat mich verletzt .
 13165;vtt;target;yes;yes;Hebben;gezien;;;verbprespl;verbpapa;;;hebben;zien;;;;Hebben ze toch onze periscoop gezien .;entdeckt haben;Die müssen das Sehrohr entdeckt haben .
 13166;ott;target;yes;yes;arresteer;;;;verbpressg;;;;arresteren;;;;;U en Sir Thomas Wyatt worden beschuldigd van samenzwering en ik arresteer u wegens verraad .;seid festgenommen;Ihr seid angeklagt , Euch mit Sir Thomas Wyatt verschworen zu haben , gegen ihre Majestät , die Herrscherin , und seid wegen Verrats festgenommen .
-13167;other;target;yes;yes;zijn;vergeten;;;verbprespl;verbprespl;;;zijn;vergeten;;;;Hé , jullie zijn wat vergeten .;habt zurückgelassen;Ihr habt dies hier zurückgelassen !
+13167;vtt;target;yes;yes;zijn;vergeten;;;verbprespl;verbprespl;;;zijn;vergeten;;;;Hé , jullie zijn wat vergeten .;habt zurückgelassen;Ihr habt dies hier zurückgelassen !
 13168;vtt;target;yes;yes;heb;gepraat;;;verbpressg;verbpapa;;;hebben;praten;;;;Ik heb gepraat .;habe geredet;Ich habe geredet .
 13169;vtt;target;yes;yes;heeft;uitgevoerd;;;verbpressg;verbpapa;;;hebben;uitvoeren;;;;U heeft de taak niet uitgevoerd .;hast vollendet;Du hast die Aufgabe nicht vollendet .
 13171;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Hare Majesteit is nog niet op .;ist aufgestanden;Euer Gnaden , lhre Majestät ist noch nicht aufgestanden .
 13172;vtt;target;yes;yes;Bent;verrast;;;verbpressg;verbpapa;;;zijn;verrassen;;;;- Bent u verrast ?;ist überrascht;- Euer Gnaden ist überrascht ?
 13173;ovt;target;yes;yes;stierf;;;;verbpastsg;;;;sterven;;;;;En toen hij stierf nam ik dat over .;gestorben war;Und nachdem er gestorben war , ging ich zum Arbeiten in den Laden .
-13174;other;target;yes;yes;gehoord;;;;verbpapa;;;;horen;;;;;Niets gehoord van je vrouw ?;Haben gesprochen;Haben Sie mit lhrer Frau gesprochen ?
+13174;vtt;target;yes;yes;gehoord;;;;verbpapa;;;;horen;;;;;Niets gehoord van je vrouw ?;Haben gesprochen;Haben Sie mit lhrer Frau gesprochen ?
 13175;vtt;target;yes;yes;is;vergiftigd;;;verbpressg;verbpapa;;;zijn;vergiftigen;;;;De jurk is vergiftigd .;war vergiftet;Das Kleid war vergiftet .
 13176;vtt;target;yes;yes;gescheurd;zijn;;;verbpapa;verbprespl;;;scheuren;zijn;;;;Ga kijken hoeveel er gescheurd zijn .;sind ausgelaufen;Wie viele Zellen sind ausgelaufen ?
 13177;ovt;target;yes;yes;waarschuwde;;;;verbpastsg;;;;waarschuwen;;;;;Mijn moeder waarschuwde me altijd voor faunen .;hat gewarnt;Meine Mutter hat mich gewarnt , auf Feen acht zu geben .
@@ -176,17 +176,17 @@ Geen wapens , geen schuilplaats ...";seid aufgeschmissen;Ihr seid aufgeschmissen
 13180;ott;target;yes;yes;Is;;;;verbpressg;;;;zijn;;;;;Is de slaapzaal gereed ?;Ist gerichtet;Ist das Schlafgemach gerichtet ?
 13181;vtt;target;yes;yes;hebben;omsingeld;;;verbprespl;verbpapa;;;hebben;omsingelen;;;;We hebben een eenheid omsingeld die achterop raakte .;haben umzingelt;Capitán , wir haben eine kleine zurückgefallene Einheit umzingelt .
 13182;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;- We zijn al bezig .;Habe angefangen;- Habe schon angefangen .
-13183;other;target;yes;yes;zijn;vergeten;;;verbprespl;verbinf;;;zijn;vergeten;;;;"Maar geen draad .
+13183;vtt;target;yes;yes;zijn;vergeten;;;verbprespl;verbinf;;;zijn;vergeten;;;;"Maar geen draad .
 Ze zijn alleen voor 50 pfennig draad vergeten .";gedacht haben;Woran sie aber nicht gedacht haben , ist Draht für 50 Pfennig !
 13184;vtt;target;yes;yes;heb;gevaren;;;verbpressg;verbpapa;;;hebben;varen;;;;Zoals ze over de zee glijden ... lk heb op ' n driemaster gevaren .;bin gesegelt;Ich bin auf einem Schoner gesegelt .
 13185;vtt;target;yes;yes;heeft;gehaald;;;verbpressg;verbpapa;;;hebben;halen;;;;De rest heeft het niet gehaald .;hat geschafft;Der Rest der Männer hat es nicht geschafft .
 13186;vtt;target;yes;yes;worden;beschuldigd;;;verbprespl;verbpapa;;;worden;beschuldigen;;;;U en Sir Thomas Wyatt worden beschuldigd van samenzwering en ik arresteer u wegens verraad .;seid angeklagt;Ihr seid angeklagt , Euch mit Sir Thomas Wyatt verschworen zu haben , gegen ihre Majestät , die Herrscherin , und seid wegen Verrats festgenommen .
 13187;vtt;target;yes;yes;Heb;geleden;;;verbpressg;verbpapa;;;hebben;lijden;;;;Heb ik niet genoeg geleden door van haar te houden ?;Habe gelitten;Habe ich nicht schon genug gelitten , weil ich sie liebte und es zeigte ?
-13189;other;target;yes;yes;is;verrukt;;;verbpressg;adj;;;zijn;verrukt;;;;De Spaanse koning is verrukt van u en vraagt om uw hand .;ist entzückt;Der König von Spanien ist von Euch entzückt und bittet Euch um Eure Hand .
-13190;other;target;yes;yes;heb;verlost;;;verbpressg;verbpressg;;;hebben;verlossen;;;;Ik heb Engeland van haar vijanden verlost .;habe befreit;Ich habe England von seinen Feinden befreit .
+13189;ott;target;yes;yes;is;verrukt;;;verbpressg;adj;;;zijn;verrukt;;;;De Spaanse koning is verrukt van u en vraagt om uw hand .;ist entzückt;Der König von Spanien ist von Euch entzückt und bittet Euch um Eure Hand .
+13190;vtt;target;yes;yes;heb;verlost;;;verbpressg;verbpressg;;;hebben;verlossen;;;;Ik heb Engeland van haar vijanden verlost .;habe befreit;Ich habe England von seinen Feinden befreit .
 13191;ovt;target;yes;yes;Zeiden;;;;verbpastpl;;;;zeggen;;;;;Zeiden ze ' t niet zo ?;gesagt haben;Aber es ist nicht , wie alle gesagt haben .
 13192;vtt;target;yes;yes;heb;vernomen;;;verbpressg;verbpapa;;;hebben;vernemen;;;;Ik heb vernomen dat een priester brieven uit Rome overhandigt aan hen die u kwaad willen doen .;habe erfahren;Ich habe erfahren , daß ein Priester auf dem Weg ist mit Briefen aus Rom , an die , die Euch Schaden zufügen wollen .
-13194;other;target;yes;yes;verslagen;zijn;;;nounpl;verbprespl;;;verslag;zijn;;;;Helaas moet ik u mededelen dat we verslagen zijn .;unterlegen sind;Zu meinem Kummer muß ich Euch berichten , daß wir in Schottland unterlegen sind .
+13194;vtt;target;yes;yes;verslagen;zijn;;;nounpl;verbprespl;;;verslag;zijn;;;;Helaas moet ik u mededelen dat we verslagen zijn .;unterlegen sind;Zu meinem Kummer muß ich Euch berichten , daß wir in Schottland unterlegen sind .
 13195;vtt;target;yes;yes;hebben;gepakt;;;verbprespl;verbpapa;;;hebben;pakken;;;;Die hebben we flink gepakt .;haben erwischt;Wir haben die ganz schön erwischt .
 13196;vtt;target;yes;yes;hebt;gevonden;;;verbpressg;verbpapa;;;hebben;vinden;;;;Je hebt m ' n zwakke punt gevonden :;hast gefunden;Du hast meine Schwäche gefunden :
 13198;vtt;target;yes;yes;zijn;gedicht;;;verbprespl;verbpapa;;;zijn;dichten;;;;Alle lekken zijn gedicht .;sind geschlossen;Alle Lecks sind geschlossen .
@@ -198,9 +198,9 @@ Ze zijn alleen voor 50 pfennig draad vergeten .";gedacht haben;Woran sie aber ni
 13204;other;target;yes;yes;Teruggekeerd;;;;verbpapa;;;;terugkeren;;;;;Teruggekeerd uit ballingschap en hij gaat persoonlijk voor u zorgen .;ist zurückgekehrt;Er ist aus dem Exil zurückgekehrt .
 13205;ovt;target;yes;yes;was;;;;verbpastsg;;;;wezen|zijn;;;;;Waar was je , Walsingham ?;hat aufgehalten;Was hat Euch aufgehalten , Walsingham ?
 13207;ovt;target;yes;yes;verdiende;;;;verbpastsg;;;;verdienen;;;;;- Waar verdiende u de kost ?;Haben gearbeitet;- Haben Sie dort gearbeitet ?
-13210;other;target;yes;yes;hebben;gevangen;;;verbprespl;adj;;;hebben;gevangen;;;;Ze hebben er een levend gevangen .;haben erwischt;Sie haben einen lebendig erwischt .
+13210;vtt;target;yes;yes;hebben;gevangen;;;verbprespl;adj;;;hebben;gevangen;;;;Ze hebben er een levend gevangen .;haben erwischt;Sie haben einen lebendig erwischt .
 13211;vtt;target;yes;yes;Ben;gevolgd;;;verbpressg;verbpapa;;;zijn;volgen;;;;Ben jij me gevolgd ?;Bist gefolgt;Bist du mir hierher gefolgt ?
-13212;other;target;yes;yes;heeft;overtreden;;;verbpressg;verbprespl;;;hebben;overtreden;;;;U heeft de regels overtreden .;hast gebrochen;- Du hast die Regeln gebrochen !
+13212;vtt;target;yes;yes;heeft;overtreden;;;verbpressg;verbprespl;;;hebben;overtreden;;;;U heeft de regels overtreden .;hast gebrochen;- Du hast die Regeln gebrochen !
 13213;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;- De flensbouten zijn kapot .;sind gerissen;- Die Pleuelstangen sind gerissen .
 13998;ovt;target;yes;yes;hoorde;;;;verbpastsg;;;;horen;;;;;Ik hoorde iets .;He oido;He oido algo .
 14003;vtt;target;yes;yes;is;gestreden;;;verbpressg;verbpapa;;;zijn;strijden;;;;Mijn strijd is gestreden .;ha concluido;Mi cometido ha concluido .
@@ -213,7 +213,7 @@ Maar God weet dat al mijn adviezen ertoe dienden uw troon te waarborgen .";have 
 14393;vtt;target;yes;yes;heb;bewezen;;;verbpressg;verbpapa;;;hebben;bewijzen;;;;Ik heb bewezen geen goed heerser te zijn .;have been proved;I have been proved unfit to rule .
 14394;vtt;target;yes;yes;gepleegd;heb;;;verbpapa;verbpressg;;;plegen;hebben;;;;Omdat ik geen misdaden gepleegd heb .;have committed;Because , Your Majesty , I have committed none .
 14395;vtt;target;yes;yes;Heb;gekeken;;;verbpressg;verbpapa;;;hebben;kijken;;;;Heb je in haar kamer gekeken ?;Have looked;Have you looked in her room ?
-14396;other;target;yes;yes;heb;verlost;;;verbpressg;verbpressg;;;hebben;verlossen;;;;Ik heb Engeland van haar vijanden verlost .;have rid;I have rid England of her enemies .
+14396;vtt;target;yes;yes;heb;verlost;;;verbpressg;verbpressg;;;hebben;verlossen;;;;Ik heb Engeland van haar vijanden verlost .;have rid;I have rid England of her enemies .
 14397;ott;target;yes;yes;wacht;;;;verbpressg;;;;wachten;;;;;Hij wacht al zo lang .;'s been;He 's been waiting for you so long .
 14399;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;"Wakker worden .
 Er is bezoek .";'ve got;Wake up , you 've got company .
@@ -229,7 +229,7 @@ Er is bezoek .";'ve got;Wake up , you 've got company .
 14410;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;- We zijn al bezig .;'ve started;- I 've already started .
 14411;vtt;target;yes;yes;ben;teleurgesteld;;;verbpressg;verbpapa;;;zijn;teleurstellen;;;;Ik ben erg teleurgesteld in je , Ofelia .;'ve disappointed;You 've disappointed me , Ofelia .
 14412;vtt;target;yes;yes;ben;geworden;;;verbpressg;verbpapa;;;zijn;worden;;;;Ik ben een maagd geworden .;have become;I have become a virgin .
-14413;other;target;yes;yes;gegeten;;;;verbpapa;;;;eten;;;;;Nooit gegeten .;'ve had;I 've never had one .
+14413;vtt;target;yes;yes;gegeten;;;;verbpapa;;;;eten;;;;;Nooit gegeten .;'ve had;I 've never had one .
 14414;vtt;target;yes;yes;heb;besloten;;;verbpressg;verbpapa;;;hebben;besluiten;;;;Ik heb besloten u te verheffen tot Lord Burghley zodat u rustig van uw pensioen kunt genieten .;have decided;I have decided to create you Lord Burghley , so you may enjoy your retirement in greater ease .
 14415;ovt;target;yes;yes;waren;;;;verbpastpl;;;;wezen|zijn;;;;;Gewoon een stel rotsen die er nog voor de molen waren .;have been;Just a pile of old rocks that have always been here .
 14418;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;Ze zijn van plan alle katholieken af te slachten .;have made;Yes , and have made plans to massacre every Catholic in England .
@@ -239,7 +239,7 @@ Er is bezoek .";'ve got;Wake up , you 've got company .
 14423;vtt;target;yes;yes;heb;opgevolgd;;;verbpressg;verbpapa;;;hebben;opvolgen;;;;Ik heb vrijwel al uw adviezen opgevolgd maar uw beleid maakt van Engeland een Franse of Spaanse provincie .;have followed;I have followed your advice in all the affairs of my kingdom , but your policies would make England nothing but part of France or Spain .
 14424;ovt;target;yes;yes;dienden;;;;verbpastpl;;;;dienen;;;;;"Het spijt mij heel erg als ik u beledigd heb , Mevrouw .
 Maar God weet dat al mijn adviezen ertoe dienden uw troon te waarborgen .";has been;I deeply regret , Madam , if I have caused you such offence though God knows all my advice has only ever been
-14425;other;target;yes;yes;is;verlopen;;;verbpressg;verbinf;;;zijn;verlopen;;;;Maar het is niet zo goed verlopen .;haven turned;But things haven 't turned out so well .
+14425;vtt;target;yes;yes;is;verlopen;;;verbpressg;verbinf;;;zijn;verlopen;;;;Maar het is niet zo goed verlopen .;haven turned;But things haven 't turned out so well .
 14426;ott;target;yes;yes;lach;;;;verbpressg;;;;lachen;;;;;Hoelang lach je me al uit ?;have been;How long have you been laughing at me ?
 14427;vtt;target;yes;yes;is;gebeurd;;;verbpressg;verbpapa;;;zijn;beuren|gebeuren;;;;Er is iets gebeurd .;has happened;Something has happened !
 14428;vtt;target;yes;yes;heeft;gewonnen;;;verbpressg;verbpapa;;;hebben;winnen;;;;Hare Majesteit heeft de stemming gewonnen .;has won;Her Majesty ... has won the argument .
@@ -252,7 +252,7 @@ Ze bloedt niet meer en haar buik wordt dikker .";has ceased;She has ceased to bl
 14434;vtt;target;yes;yes;hebben;omsingeld;;;verbprespl;verbpapa;;;hebben;omsingelen;;;;We hebben een eenheid omsingeld die achterop raakte .;'ve surrounded;Captain , we 've surrounded a small unit that fell behind .
 14435;vtt;target;yes;yes;heeft;uitgebreid;;;verbpressg;verbpapa;;;hebben;uitbreiden;;;;Maria van Guise heeft haar leger uitgebreid tot vierduizend man .;has increased;Mary of Guise has increased the French garrison in Scotland by 4,000 men .
 14436;vtt;target;yes;yes;heeft;geërfd;;;verbpressg;verbpapa;;;hebben;erven;;;;Uwe Majesteit moet weten dat u een rijk in verval heeft geërfd .;has inherited;Your Majesty has inherited a most parlous and degenerate state .
-14437;other;target;yes;yes;kan;oordelen;;;verbpressg;verbinf;;;kunnen;oordelen;;;;Ik begrijp niet hoe men zo slecht over mij kan oordelen .;has been formed;I do not understand how so bad a judgement has been formed of me !
+14437;ott;target;yes;yes;kan;oordelen;;;verbpressg;verbinf;;;kunnen;oordelen;;;;Ik begrijp niet hoe men zo slecht over mij kan oordelen .;has been formed;I do not understand how so bad a judgement has been formed of me !
 14438;ott;target;yes;yes;voel;;;;verbpressg;;;;voelen;;;;;Ik ben omringd door de banden van de hel en ik voel de strop des doods .;have overtaken;The cords of hell have encompassed me about and the snares of death have overtaken me !
 14439;vtt;target;yes;yes;heeft;omsloten;;;verbpressg;verbpapa;;;hebben;omsluiten;;;;Een golf des doods heeft mij omsloten .;have closed;The waves of death have closed about me !
 14440;ott;target;yes;yes;heb;;;;verbpressg;;;;hebben;;;;;Ik heb de sleutel .;'ve got;l 've got the key .
@@ -260,13 +260,13 @@ Ze bloedt niet meer en haar buik wordt dikker .";has ceased;She has ceased to bl
 14443;vtt;target;yes;yes;heeft;gepleegd;;;verbpressg;verbpapa;;;hebben;plegen;;;;Lord Robert heeft verraad gepleegd .;has committed;Lord Robert has committed treason .
 14444;ott;target;yes;yes;ben;;;;verbpressg;;;;zijn;;;;;Ik ben uw vorstin ...;have been placed;I have been placed here ...
 14445;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Dat is wel duidelijk .;'ve made;You 've made that clear enough .
-14447;other;target;yes;yes;Bent;vergeten;;;verbpressg;verbinf;;;zijn;vergeten;;;;Bent u het nu al vergeten ?;Have forgot;Have you forgot , my Lord ?
+14447;vtt;target;yes;yes;Bent;vergeten;;;verbpressg;verbinf;;;zijn;vergeten;;;;Bent u het nu al vergeten ?;Have forgot;Have you forgot , my Lord ?
 14448;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Hare Majesteit is nog niet op .;has risen;Your Grace , Her Majesty has not risen .
 14449;ott;target;yes;yes;heb;;;;verbpressg;;;;hebben;;;;;"Op wiens gezag heb je ons opgesloten ?
 Vergeef mij .";have kept;I would know on what authority you have kept us locked up here .
 14450;vtt;target;yes;yes;heeft;gedaan;;;verbpressg;verbpapa;;;hebben;doen;;;;Wat heeft u met ' m gedaan ?;have done;My God , what have you done to him ?
 14451;ovt;target;yes;yes;gaf;;;;verbpastsg;;;;geven;;;;;Je gaf liever je eigen bloed dan dat van een onschuldige .;have spilled;You have spilled your own blood rather than that of an innocent .
-14452;other;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;Has abandoned;Has He abandoned you ?
+14452;vtt;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;Has abandoned;Has He abandoned you ?
 14453;ott;target;yes;yes;is;;;;verbpressg;;;;zijn;;;;;Het voorduikroer is onklaar .;has jammed;The bow plane has jammed on dive .
 14455;ott;target;yes;yes;leeft;;;;verbpressg;;;;leven;;;;;Tussen de wortels leeft een reuzenpad die de groei van de boom verhindert .;has settled;A monstrous toad has settled in its roots and won 't let the tree thrive .
 14457;vtt;target;yes;yes;hebt;gemaakt;;;verbpressg;verbpapa;;;hebben;maken;;;;Je hebt mama erg ziek gemaakt .;'ve made;You 've made Mama very sick .
@@ -517,17 +517,17 @@ Staat dat wijf van Rikkert daar gewoon af te sluiten .";est arrivés;On est arri
 15209;vtt;target;yes;yes;heb;vernomen;;;verbpressg;verbpapa;;;hebben;vernemen;;;;Ik heb vernomen dat een priester brieven uit Rome overhandigt aan hen die u kwaad willen doen .;ai appris;J' ai appris qu' un prêtre porte des missives de Rome à ceux qui veulent votre perte .
 15211;other;target;yes;yes;gegeten;;;;verbpapa;;;;eten;;;;;Nooit gegeten .;ai mangé;Je n' en ai jamais mangé .
 15212;other;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;a abandonné;Il vous a abandonné ?
-15213;other;target;yes;yes;neuken;;;;verbinf;;;;neuken;;;;;"Rikkert haar dus neuken .
+15213;ott;target;yes;yes;neuken;;;;verbinf;;;;neuken;;;;;"Rikkert haar dus neuken .
 Je weet wel , zo .";a baisée;Donc Rikkert l' a baisée comme ça .
 15214;vtt;target;yes;yes;zijn;gebroken;;;verbprespl;verbpapa;;;zijn;breken;;;;De schotten zijn gebroken .;ont coulé;Ils ont coulé .
 15215;ott;target;yes;yes;zit;;;;verbpressg;;;;zitten;;;;;- Waar zit ie ?;est passé;Où c' est passé ?
 15217;vtt;target;yes;yes;Heb;gezien;;;verbpressg;verbpapa;;;hebben;zien;;;;- Heb je m ' n moeder gezien ?;as vu;Tu as vu ma mère ?
 15218;vtt;target;yes;yes;heb;gemaakt;;;verbpressg;verbpapa;;;hebben;maken;;;;Kijk eens wat ik voor jou heb gemaakt .;ai fait;Et regarde ce que j' ai fait pour toi .
 15219;vtt;target;yes;yes;Heb;gekeken;;;verbpressg;verbpapa;;;hebben;kijken;;;;Heb je in haar kamer gekeken ?;es allée;Tu es allée voir dans sa chambre ?
-15221;other;target;yes;yes;afgesloten;;;;verbpapa;;;;afsluiten;;;;;Wegens administratieve redenen afgesloten .;a été suspendu;a été suspendu .
+15221;vtt;target;yes;yes;afgesloten;;;;verbpapa;;;;afsluiten;;;;;Wegens administratieve redenen afgesloten .;a été suspendu;a été suspendu .
 15222;vvt;target;yes;yes;had;besteld;;;verbpastsg;verbpapa;;;hebben;bestellen;;;;Gij had niks besteld .;as commandé;- T' as pas commandé .
 15223;vtt;target;yes;yes;is;gebeurd;;;verbpressg;verbpapa;;;zijn;beuren|gebeuren;;;;Er is iets gebeurd .;est passé;Vite , il s' est passé quelque chose !
-15224;other;target;yes;yes;zijn;kapot;;;verbprespl;adj;;;zijn;kapot;;;;- De flensbouten zijn kapot .;ont sautés;- Les boulons ont sautés .
+15224;ott;target;yes;yes;zijn;kapot;;;verbprespl;adj;;;zijn;kapot;;;;- De flensbouten zijn kapot .;ont sautés;- Les boulons ont sautés .
 15225;vtt;target;yes;yes;hebt;gedaan;;;verbpressg;verbpapa;;;hebben;doen;;;;Je hebt me pijn gedaan .;a blessé;Ce que tu as fais m' a blessé .
 15226;ott;target;yes;yes;heeft;;;;verbpressg;;;;hebben;;;;;De politie daar heeft ze in ieder geval niet te pakken kunnen krijgen .;a été;Quoi qu' il en soit , la police n' a pas été en mesure de les arrêter .
 15227;ott;target;yes;yes;zeiken;;;;verbprespl;;;;zeiken;;;;;Dus dat wijf weer zeiken natuurlijk .;a commencé;Elle a commencé à se plaindre .
@@ -542,17 +542,17 @@ Je weet wel , zo .";a baisée;Donc Rikkert l' a baisée comme ça .
 15239;ott;target;yes;yes;Wist;;;;verbpressg;;;;wissen;;;;;Wist u dat ik uw vader heb ontmoet , kapitein ?;ai dit;Je vous ai dit que j' ai connu votre père mon Capitaine ?
 15240;ovt;target;yes;yes;kwamen;;;;verbpastpl;;;;komen;;;;;Ze kwamen uit het niets , kapitein .;sont sortis;Ils sont sortis on ne sait pas d' où .
 15241;other;target;yes;yes;ben;kwijt;;;verbpressg;verbpressg;;;zijn;kwijten;;;;Nu ben ik ook nog mijn wijf en de kinderen kwijt omdat ik niet meer voor hun kan zorgen , snapte ?;ai perdu;J' ai perdu ma femme et mes enfants , parce que je ne pouvais pas prendre soin d' eux .
-15242;other;target;yes;yes;heeft;ontmoet;;;verbpressg;verbpressg;;;hebben;ontmoeten;;;;Hoe heeft u de kapitein ontmoet ?;avez connu;Et , comment avez vous connu le Capitaine ?
+15242;vtt;target;yes;yes;heeft;ontmoet;;;verbpressg;verbpressg;;;hebben;ontmoeten;;;;Hoe heeft u de kapitein ontmoet ?;avez connu;Et , comment avez vous connu le Capitaine ?
 15243;vtt;target;yes;yes;is;geschoten;;;verbpressg;verbpapa;;;zijn;schieten;;;;Er is mee geschoten .;a servi;Elle a servi .
 15244;other;target;yes;yes;gaan;;;;verbinf;;;;gaan;;;;;Om er voor te zorgen dat u niet helemaal met ' n rotgevoel de bioscoop verlaat gaan Richard en de jongens het verhaal vertellen ... ... zodat u in ieder geval weet hoe dit leuke filmverhaal ... ... een einde ZOU hebben als de film afgemaakt zou kunnen worden .;avons décidé;Mais pour s' assurer que vous ne quitterez pas le film frustré Nous avons décidé que Richard et les autres allaient vous raconter le reste de l' histoire ... ... vous saurez au moins à quel point la fin ... ... aurait été bonne .
 15245;vtt;target;yes;yes;hebt;gevonden;;;verbpressg;verbpapa;;;hebben;vinden;;;;Je hebt m ' n zwakke punt gevonden :;avez découvert;Vous avez découvert mon point faible :
 15247;vtt;target;yes;yes;Hebben;gezien;;;verbprespl;verbpapa;;;hebben;zien;;;;Hebben ze toch onze periscoop gezien .;ont dû;Ces fumiers ont dû voir le périscope sorti .
-15248;other;target;yes;yes;heb;geplekt;;;verbpressg;nounsg;;;hebben;geplekt;;;;Daar heb ik nog geplekt met Ilona van Zoggel .;ai doigté;Et j' ai doigté Ilona van Zoggel .
+15248;vtt;target;yes;yes;heb;geplekt;;;verbpressg;nounsg;;;hebben;geplekt;;;;Daar heb ik nog geplekt met Ilona van Zoggel .;ai doigté;Et j' ai doigté Ilona van Zoggel .
 15249;ott;target;yes;yes;hebben;;;;verbprespl;;;;hebben;;;;;- Ze hebben er een .;ont pris;- Ils en ont pris un vivant .
 15250;vtt;target;yes;yes;heeft;gevonden;;;verbpressg;verbpapa;;;hebben;vinden;;;;U heeft de sleutel gevonden .;avez trouvé;Alors ... vous avez trouvé la clé .
 15251;ott;target;yes;yes;volgt;;;;verbpressg;;;;volgen;;;;;- Waarom volgt u mij ?;avez-vous suivie;Pourquoi m' avez-vous suivie ?
 15252;vtt;target;yes;yes;hebben;gewonnen;;;verbprespl;verbpapa;;;hebben;winnen;;;;De oorlog is voorbij en wij hebben gewonnen .;avons gagnée;la guerre est terminée et nous l' avons gagnée .
-15253;other;target;yes;yes;afgeschud;;;;verbpapa;;;;afschudden;;;;;Die kutwouten afgeschud .;a semé;On a semé les flics .
+15253;vtt;target;yes;yes;afgeschud;;;;verbpapa;;;;afschudden;;;;;Die kutwouten afgeschud .;a semé;On a semé les flics .
 15254;ovt;target;yes;yes;doorzocht;;;;verbpastsg;;;;doorzoeken;;;;;Sergeant Bayona doorzocht de sector en nam een verdachte gevangen .;a ratissé;Le sergent Bayona a ratissé la zone .
 15255;ovt;target;yes;yes;stierven;;;;verbpastpl;;;;sterven;;;;;Ze stierven voor Haar .;sont morts;Ils sont morts pour elle .
 15256;ovt;target;yes;yes;zag;;;;verbpastsg;;;;zien;;;;;"Ik was veelste jong .
@@ -573,29 +573,29 @@ Voor mij was het ook niet makkelijk .";as été;Un jour tu te rendras compte que
 15272;ovt;target;yes;yes;was;;;;verbpastsg;;;;wezen|zijn;;;;;Mevrouw , Hare Majesteit was te snel met het afwijzen van de hertog .;a rejeté;Selon moi , sa Majesté a rejeté trop vite
 15274;ovt;target;yes;yes;gaf;;;;verbpastsg;;;;geven;;;;;Je gaf liever je eigen bloed dan dat van een onschuldige .;avez choisi;Vous avez choisi de verser votre sang plutôt que celui d' un innocent .
 15275;ovt;target;yes;yes;luisterde;;;;verbpastsg;;;;luisteren;;;;;Waarom luisterde je niet ?;avez obéi;Pourquoi vous n' avez pas obéi ?
-15276;other;target;yes;yes;afgeschud;;;;verbpapa;;;;afschudden;;;;;Wouten afgeschud .;a semés;On les a semés .
+15276;vtt;target;yes;yes;afgeschud;;;;verbpapa;;;;afschudden;;;;;Wouten afgeschud .;a semés;On les a semés .
 15277;ovt;target;yes;yes;werd;;;;verbpastsg;;;;worden;;;;;Het werd uw moeders dood .;est morte;Votre mère en est morte .
 15278;vtt;target;yes;yes;is;gebroken;;;verbpressg;verbpapa;;;zijn;breken;;;;Zijn nek is al gebroken .;a brisé;On leur a brisé la colonne vertébrale .
 15280;vtt;target;yes;yes;heb;gedaan;;;verbpressg;verbpapa;;;hebben;doen;;;;Waarom heb je het gedaan ?;avez tué;Pourquoi vous l' avez tué ?
 15281;vtt;target;yes;yes;Heb;geleden;;;verbpressg;verbpapa;;;hebben;lijden;;;;Heb ik niet genoeg geleden door van haar te houden ?;ai-je souffert;N' ai-je pas assez souffert de l' aimer et de le montrer ?
 15282;ott;target;yes;yes;bent;;;;verbpressg;;;;zijn;;;;;U bent weer terug .;êtes revenue;Vous êtes revenue .
 15283;ovt;target;yes;yes;deed;;;;verbpastsg;;;;doen;;;;;Maar dat deed ik niet .;ai fait;j' aurais pu , mais je ne l' ai pas fait .
-15284;other;target;yes;yes;hebben;laten;liggen;;verbprespl;verbinf;verbinf;;hebben;laten;liggen;;;- Ze hebben dit lot laten liggen .;ont oublié;Quels couillons , ils ont oublié ce billet de loterie
+15284;vtt;target;yes;yes;hebben;laten;liggen;;verbprespl;verbinf;verbinf;;hebben;laten;liggen;;;- Ze hebben dit lot laten liggen .;ont oublié;Quels couillons , ils ont oublié ce billet de loterie
 15285;vtt;target;yes;yes;heeft;gekakt;;;verbpressg;verbpapa;;;hebben;kakken;;;;"Wie heeft er in mijn cel gekakt ?
 Er ligt hier schijt .
 HEEE .";ai chié;J' ai chié dans ma cellule , il ya de la merde partout !
 15286;vtt;target;yes;yes;heeft;gebaard;;;verbpressg;verbpapa;;;hebben;baren|gebaren;;;;De maan heeft u gebaard .;a engendrée;C' est la lune qui vous a engendrée .
 15288;vvt;target;yes;yes;Had;gehoord;;;verbpastsg;verbpapa;;;hebben;horen;;;;Had u ooit van Schijndel gehoord ?;Avez-vous parler;Avez-vous déjà entendu parler d' une ville appelée Schijndel ?
 15289;vtt;target;yes;yes;hebben;gedaan;;;verbprespl;verbpapa;;;hebben;doen;;;;Dat hebben ze godverdomme snel gedaan .;ont fait;Ils ont fait putain de vite .
-15290;other;target;yes;yes;hed;gered;;;adj;verbpapa;;;hed;redden;;;;Gij hed m ' n leven gered .;as sauvé;Tu m' as sauvé la vie !
-15291;other;target;yes;yes;Gejat;;;;verbpapa;;;;jatten;;;;;Gejat van die ene kut .;ai volé;Je l' ai volé à ce cunt .
-15292;other;target;yes;yes;hadden;pakken;;;verbpastpl;verbinf;;;hebben;pakken;;;;We hadden ze bijna te pakken .;a trouvé;Et on a trouvé ça .
+15290;vtt;target;yes;yes;hed;gered;;;adj;verbpapa;;;hed;redden;;;;Gij hed m ' n leven gered .;as sauvé;Tu m' as sauvé la vie !
+15291;vtt;target;yes;yes;Gejat;;;;verbpapa;;;;jatten;;;;;Gejat van die ene kut .;ai volé;Je l' ai volé à ce cunt .
+15292;ovt;target;yes;yes;hadden;pakken;;;verbpastpl;verbinf;;;hebben;pakken;;;;We hadden ze bijna te pakken .;a trouvé;Et on a trouvé ça .
 15293;ovt;target;yes;yes;hoorde;;;;verbpastsg;;;;horen;;;;;Ik hoorde iets .;ai entendu;J' ai entendu quelque chose .
 15294;vtt;target;yes;yes;heeft;uitgevoerd;;;verbpressg;verbpapa;;;hebben;uitvoeren;;;;U heeft de taak niet uitgevoerd .;avez refusé;Vous avez refusé de vous soumettre à l' épreuve .
 15296;other;target;yes;yes;Dinde;;;;nounsg;;;;Dinde;;;;;Dinde gij da nou me oew voet , joh ?;as fait;T' as fait ça avec ton pied ?
 15299;vtt;target;yes;yes;zijn;vertrokken;;;verbprespl;verbpapa;;;zijn;vertrekken;;;;Ze waren hier twintig minuten geleden , en zijn dan snel weer vertrokken .;sont partis;Ils sont partis précipitamment .
 15300;ott;target;yes;yes;Beginnen;;;;verbprespl;;;;beginnen;;;;;Beginnen die wouten gewoon op mij te schieten .;ont commencé;Mais ils ont commencé à tirer .
-15301;other;target;yes;yes;heeft;overtreden;;;verbpressg;verbprespl;;;hebben;overtreden;;;;U heeft de regels overtreden .;avez enfreint;- Vous avez enfreint une des règles !
+15301;vtt;target;yes;yes;heeft;overtreden;;;verbpressg;verbprespl;;;hebben;overtreden;;;;U heeft de regels overtreden .;avez enfreint;- Vous avez enfreint une des règles !
 15302;other;target;yes;yes;beschoten;;;;verbpapa;;;;beschieten;;;;;Vermoedelijk de door ons beschoten tanker .;a touché;Forte lueur d' incendie , émanant sans doute du pétrolier qu' on a touché .
 15303;ott;target;yes;yes;zijn;;;;verbprespl;;;;zijn;;;;;Ze zijn van plan alle katholieken af te slachten .;ont prévu;Ils ont déjà prévu de massacrer tous les catholiques d' Angleterre .
 15305;ovt;target;yes;yes;nam;;;;verbpastsg;;;;nemen;;;;;Sergeant Bayona doorzocht de sector en nam een verdachte gevangen .;a fait;Il a fait un prisonnier .
@@ -603,7 +603,7 @@ HEEE .";ai chié;J' ai chié dans ma cellule , il ya de la merde partout !
 15308;ovt;target;yes;yes;spraken;;;;verbpastpl;;;;spreken;;;;;Ze spraken ertegen .;ont prêché;Ils ont prêché contre .
 15309;other;target;yes;yes;komde;;;;adj;;;;komde;;;;;Hoe komde gij aan zoveel geld , dan ?;as trouvé;Dis-moi où t' as trouvé cet argent !
 15310;vvt;target;yes;yes;had;gehoord;;;verbpastsg;verbpapa;;;hebben;horen;;;;Ik had er toch ook nooit van gehoord ?;ai entendu;Je n' en ai jamais entendu parler .
-15312;other;target;yes;yes;Kheb;gegeten;;;nounsg;verbpapa;;;Kheb;eten;;;;Kheb de hele middag nog niks gegeten , kut .;ai mangé;J' ai pas mangé de toute la journée , cunt !
+15312;vtt;target;yes;yes;Kheb;gegeten;;;nounsg;verbpapa;;;Kheb;eten;;;;Kheb de hele middag nog niks gegeten , kut .;ai mangé;J' ai pas mangé de toute la journée , cunt !
 15313;other;target;yes;yes;wordt;vermist;;;verbpressg;nounsg;;;worden;vermist;;;;de minister van Defensie wordt nog steeds vermist .;a été retrouvé;Notre ministre de la Défense n' a pas encore été retrouvé .
 15314;vtt;target;yes;yes;heeft;besloten;;;verbpressg;verbpapa;;;hebben;besluiten;;;;Hier in Maaskantje op het Triestplein heeft een bewoner besloten om nergens meer voor te betalen .;a décidé;A Maaskantje une personne a décidé de ne plus rien payer .
 15315;vtt;target;yes;yes;heb;gekregen;;;verbpressg;verbpapa;;;hebben;krijgen;;;;Ik heb het bevel gekregen u naar de Tower te brengen .;ai reçu;J' ai reçu l' ordre de vous mener à la Tour .
@@ -975,7 +975,7 @@ Wees voorzichtig .";he escuchado;Si por lo menos estuviese cualificado pero he e
 18234;vtt;target;yes;yes;Heb;verteld;;;verbpressg;verbpapa;;;hebben;vertellen;;;;Heb je het aan iemand verteld ?;has contado;¿ Se lo has contado a alguien ?
 18235;vtt;target;yes;yes;is;vergiftigd;;;verbpressg;verbpapa;;;zijn;vergiftigen;;;;Mijn echtgenoot is weg , ons kind is vergiftigd .;Han envenenado;Han envenenado a mi hijo .
 18236;ott;target;yes;yes;kom;;;;verbpressg;;;;komen;;;;;Hoe kom je aan dit adres ?;has encontrado;- ¿ Cómo me has encontrado ?
-18238;other;target;yes;yes;heb;verlost;;;verbpressg;verbpressg;;;hebben;verlossen;;;;Ik heb Engeland van haar vijanden verlost .;He librado;He librado a Inglaterra de sus enemigos .
+18238;vtt;target;yes;yes;heb;verlost;;;verbpressg;verbpressg;;;hebben;verlossen;;;;Ik heb Engeland van haar vijanden verlost .;He librado;He librado a Inglaterra de sus enemigos .
 18239;vtt;target;yes;yes;heb;gebeden;;;verbpressg;verbpapa;;;hebben;bidden;;;;Ik heb veel voor je gebeden .;He rezado;He rezado mucho por ti .
 18240;vtt;target;yes;yes;heb;opgevolgd;;;verbpressg;verbpapa;;;hebben;opvolgen;;;;Ik heb vrijwel al uw adviezen opgevolgd maar uw beleid maakt van Engeland een Franse of Spaanse provincie .;He seguido;He seguido vuestro consejo en todo asunto de mi reino , pero vuestra política haría de Inglaterra parte de Francia o España .
 18242;vtt;target;yes;yes;Heb;nagedacht;;;verbpressg;verbpapa;;;hebben;nadenken;;;;Heb je daar al over nagedacht ?;Has pensado;- ¿ Has pensado en eso ?
@@ -983,7 +983,7 @@ Wees voorzichtig .";he escuchado;Si por lo menos estuviese cualificado pero he e
 18245;vtt;target;yes;yes;hebben;gestuurd;;;verbprespl;verbpapa;;;hebben;sturen;;;;"We hebben ' n noodtoestand uitgeroepen .
 We hebben hulpdiensten gestuurd ...";han enviado;Hemos declarado el estado de emergencia , y se han enviado equipos de rescate ...
 18246;other;target;yes;yes;hedde;;;;nounsg;;;;hedde;;;;;Hoeveel geld hedde gij bij ?;has traído;¿ Cuánto dinero has traído ?
-18247;other;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;ha abandonado;¿ Acaso os ha abandonado ?
+18247;vtt;target;yes;yes;Heeft;verlaten;;;verbpressg;verbinf;;;hebben;verlaten;;;;Heeft Hij u verlaten ?;ha abandonado;¿ Acaso os ha abandonado ?
 18248;ott;target;yes;yes;zien;;;;verbprespl;;;;zien;;;;;"Ze zien ons niet .
 Ze liggen te pitten in hun kooi .";han localizado;No nos han localizado , Están roncando en sus literas ,
 18249;vtt;target;yes;yes;ben;ontsnapt;;;verbpressg;verbpapa;;;zijn;ontsnappen;;;;Ik ben ternauwernood ontsnapt .;he salido;Apenas si he salido con vida , Señor .
