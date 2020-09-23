@@ -6,7 +6,7 @@ This is a simple script (`process.py`) that reads in a .csv-file and assigns a t
 
 ### Python
 
-This script runs in Python 2.7 and requires an external package to run: [Pattern](https://www.clips.uantwerpen.be/pattern). You can install this package either locally (in a [virtualenv](http://virtualenv.readthedocs.io/en/latest/)) or globally by running:
+This script runs in Python 3 and requires an external packages to run: [Pattern](https://www.clips.uantwerpen.be/pattern) and scikit-learn. You can install these packages either locally (in a [virtualenv](http://virtualenv.readthedocs.io/en/latest/)) or globally by running:
 
 	pip install -r requirements.txt
 
@@ -17,4 +17,3 @@ Run the `process.py` script. It requires two parameters: your language of choice
 	python process.py nl examples/nl.csv
 
 to process the Dutch example.
-
