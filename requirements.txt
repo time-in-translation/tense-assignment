@@ -15,9 +15,8 @@ click==7.1.2              # via nltk
 cryptography==3.1.1       # via pdfminer.six
 feedparser==6.0.1         # via pattern
 future==0.18.2            # via pattern
-graphviz==0.14.1          # via -r requirements.in
+graphviz==0.14.2          # via -r requirements.in
 idna==2.10                # via requests
-importlib-resources==3.0.0  # via jaraco.text
 jaraco.classes==3.1.0     # via jaraco.collections
 jaraco.collections==3.0.0  # via cherrypy
 jaraco.functools==3.0.1   # via cheroot, jaraco.text, tempora
@@ -47,7 +46,6 @@ threadpoolctl==2.1.0      # via scikit-learn
 tqdm==4.49.0              # via nltk
 urllib3==1.25.10          # via requests
 zc.lockfile==2.0          # via cherrypy
-zipp==3.2.0               # via importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
